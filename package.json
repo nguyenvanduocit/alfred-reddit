@@ -1,0 +1,20 @@
+{
+  "name": "alfred-reddit",
+  "version": "1.0.1",
+  "description": "Reddit on Alfredapp",
+  "author": {
+    "name": "Duoc Nguyen",
+    "email": "nguyenvanduocit@gmail.com",
+    "url": "12bit.vn"
+  },
+  "scripts": {
+    "test": "ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "dependencies": {
+    "alfy": "*",
+    "alfy-test": "^0.3.0",
+    "ava": "^0.25.0"
+  }
+}
